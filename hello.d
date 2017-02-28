@@ -10,7 +10,7 @@ void printWinMsg(int player, int points) {
 void main(string[] args) {
     int score_P0 = 0, score_P1 = 0;
     int player = 0;
-    char player_choice = 0;
+    char player_choice;
     
     while (player < 2) {
         writefln("Player %d", player + 1);
