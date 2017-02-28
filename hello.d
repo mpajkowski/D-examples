@@ -37,9 +37,9 @@ void main(string[] args) {
         } 
     }
 
-    if      (score_P0 > 21)         printWinMsg(1, score_P1);
-    else if (score_P1 > 21)         printWinMsg(0, score_P0);
-    else if (score_P1 > score_P0)   printWinMsg(1, score_P1);
-    else if (score_P0 > score_P1)   printWinMsg(0, score_P0);
-    else				            writefln("Draw");
+    if           (score_P0 > 21)         printWinMsg(1, score_P1);
+    else if      (score_P1 > 21)         printWinMsg(0, score_P0);
+    else if      (score_P1 > score_P0)   printWinMsg(1, score_P1);
+    else if      (score_P0 > score_P1)   printWinMsg(0, score_P0);
+    else                                 writefln("Draw");
 }
